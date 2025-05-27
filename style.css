@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 25px 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  background: linear-gradient(135deg, #fe260a, #ff8c00);
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 8px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1::before,
+h1::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+h1::before {
+  left: 0;
+  border-width: 10px 10px 0 0;
+  border-color: #b22222 transparent transparent transparent;
+}
+
+h1::after {
+  right: 0;
+  border-width: 10px 0 0 10px;
+  border-color: #b22222 transparent transparent transparent;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0 30px 0;
+  color: dimgray;
+}
+h3 {
+  text-align: center;
+  font-family: Times New Roman, serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 30px 0;
+}
+
+/* Set the maximum width of your burger */
+.burger {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.burger2 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* This center-aligns all of the ingredients */
+.burger > div {
+  margin: 0 auto;
+}
+.burger2 > div {
+  margin: 0 auto;
+}
+
+
+
